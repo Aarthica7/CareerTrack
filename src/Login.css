@@ -1,0 +1,85 @@
+
+/* The full login page */
+.login-page {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #eef2ff;
+font-family: Arial, sans-serif;
+padding: 20px;
+box-sizing: border-box;
+}
+
+/* The white login box */
+.login-card {
+width: 100%;
+max-width: 400px;
+background: white;
+padding: 35px;
+border-radius: 16px;
+box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+}
+
+/* CareerTrack heading */
+.login-card h1 {
+text-align: center;
+color: #1e3a8a;
+margin-bottom: 10px;
+}
+
+/* Description below heading */
+.login-card p {
+text-align: center;
+color: #64748b;
+margin-bottom: 25px;
+}
+
+/* Input labels */
+.login-card label {
+display: block;
+color: #334155;
+font-weight: 600;
+margin-bottom: 8px;
+}
+
+/* Email and password boxes */
+.login-card input {
+width: 100%;
+padding: 12px;
+margin-bottom: 18px;
+border: 1px solid #cbd5e1;
+border-radius: 8px;
+box-sizing: border-box;
+font-size: 14px;
+}
+
+/* Login button */
+.login-card button {
+width: 100%;
+padding: 12px;
+background: #2563eb;
+color: white;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+
+/* Hover effect */
+.login-card button:hover {
+background: #1d4ed8;
+}
+
+/* Sign up link */
+.login-card a {
+color: #2563eb;
+font-weight: bold;
+text-decoration: none;
+}
+
+.login-card a:hover {
+text-decoration: underline;
+}
